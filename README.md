@@ -28,7 +28,7 @@ Serving Smiles comes packed with a variety of useful features, including:
 
 To install Serving Smiles Server, follow these simple steps:
 
-1. Clone the repository using `git clone https://github.com/shohan-pherones/elysian-feeds-server.git`
+1. Clone the repository using `git clone https://github.com/Maliha20/serving-smiles-server.git`
 2. Install the required dependencies by running `npm install` or `npm i`.
 3. Create a `.env` file in the root directory and add the following variables:
    - `MONGO_URI`

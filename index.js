@@ -23,7 +23,7 @@ app.use(
 
 /* TEST API */
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to Elysian Feeds server!" });
+  res.status(200).json({ message: "Welcome to Serving Smiles server!" });
 });
 
 /* BYPASSED APIs */
