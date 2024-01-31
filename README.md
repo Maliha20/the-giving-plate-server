@@ -1,10 +1,10 @@
-# Serving Smiles Charitable Initiative Website Built with Next.js: Human and Animal Welfare
+# The Giving Plate Charitable Initiative Website Built with Next.js: Human and Animal Welfare
 
-Serving Smiles is a charitable initiative website that empowers users to contribute resources or consume them, fostering collaboration and empowerment. Built with technologies like NextJS, ReactJS, and Redux Toolkit, the platform ensures a seamless user experience. The admin manages user roles, tracks contributions and consumption patterns, and analyzes the platform's impact using ExpressJS, MongoDB, and other tools. Serving Smiles utilizes Tailwind CSS, Recharts, and Framer Motion for visually appealing designs and dynamic visualizations. Join Serving Smiles to actively participate in making a positive impact and creating a more sustainable future.
+The Giving Plate is a charitable initiative website that empowers users to contribute resources or consume them, fostering collaboration and empowerment. Built with technologies like NextJS, ReactJS, and Redux Toolkit, the platform ensures a seamless user experience. The admin manages user roles, tracks contributions and consumption patterns, and analyzes the platform's impact using ExpressJS, MongoDB, and other tools. The Giving Plate utilizes Tailwind CSS, Recharts, and Framer Motion for visually appealing designs and dynamic visualizations. Join The Giving Plate to actively participate in making a positive impact and creating a more sustainable future.
 
 ## Features
 
-Serving Smiles comes packed with a variety of useful features, including:
+The Giving Plate comes packed with a variety of useful features, including:
 
 - **Contribution and Consumption:** Users can actively participate by contributing resources or consuming them from the platform, creating a cycle of giving and receiving.
 
@@ -12,21 +12,21 @@ Serving Smiles comes packed with a variety of useful features, including:
 
 - **Contribution and Consumption Tracking:** The admin can analyze and track contributions and consumption patterns, allowing for effective monitoring of the platform's impact and performance.
 
-- **Advanced Technologies:** Serving Smiles utilizes modern technologies such as NextJS, ReactJS, TypeScript, and Redux Toolkit to provide a seamless and user-friendly experience.
+- **Advanced Technologies:** The Giving Plate utilizes modern technologies such as NextJS, ReactJS, TypeScript, and Redux Toolkit to provide a seamless and user-friendly experience.
 
-- **Data Management:** Leveraging tools like ExpressJS, Mongoose, and MongoDB, Serving Smiles efficiently handles data storage, retrieval, and management.
+- **Data Management:** Leveraging tools like ExpressJS, Mongoose, and MongoDB, The Giving Plate efficiently handles data storage, retrieval, and management.
 
 - **Real-time Data Fetching:** SWR and Axios enable real-time data fetching, ensuring that users have access to up-to-date information on available resources.
 
-- **Visualizations:** Serving Smiles uses Recharts and Framer Motion to create dynamic visualizations, allowing users to easily understand the impact of their contributions and the progress of the initiative.
+- **Visualizations:** The Giving Plate uses Recharts and Framer Motion to create dynamic visualizations, allowing users to easily understand the impact of their contributions and the progress of the initiative.
 
-- **Community Empowerment:** Serving Smiles fosters collaboration and empowerment, creating a sense of unity among users as they actively participate in making a positive impact.
+- **Community Empowerment:** The Giving Plate fosters collaboration and empowerment, creating a sense of unity among users as they actively participate in making a positive impact.
 
 - **Sustainable Solution:** The platform aims to address various societal needs in a sustainable manner, creating a more equitable and compassionate future for communities worldwide.
 
 ## Installation
 
-To install Serving Smiles Server, follow these simple steps:
+To install The Giving Plate Server, follow these simple steps:
 
 1. Clone the repository using `git clone https://github.com/Maliha20/serving-smiles-server.git`
 2. Install the required dependencies by running `npm install` or `npm i`.
@@ -37,7 +37,7 @@ To install Serving Smiles Server, follow these simple steps:
 
 ## Contribution
 
-At Serving Smiles, we welcome contributions from the open-source community to help improve and enhance our platform. Here are a few ways you can contribute:
+At The Giving Plate, we welcome contributions from the open-source community to help improve and enhance our platform. Here are a few ways you can contribute:
 
 - **Bug Reports:** If you come across any issues or bugs while using our platform, please report them using our issue tracker on GitHub. This will help us identify and fix the issues quickly.
 
@@ -49,11 +49,11 @@ At Serving Smiles, we welcome contributions from the open-source community to he
 
 - **Spread the Word:** If you enjoy using our platform, please help spread the word by sharing it on social media or with your network. This will help us reach more users and grow our community.
 
-We appreciate all contributions and look forward to collaborating with the open-source community to make Serving Smiles the best it can be!
+We appreciate all contributions and look forward to collaborating with the open-source community to make The Giving Plate the best it can be!
 
 ## Community
 
-At Serving Smiles, we value community and believe that collaboration and communication are key to building a successful platform. We invite you to join our community and get involved in discussions, share your feedback, and contribute to the platform.
+At The Giving Plate, we value community and believe that collaboration and communication are key to building a successful platform. We invite you to join our community and get involved in discussions, share your feedback, and contribute to the platform.
 
 To join our community, you can connect with us on our Discord server at (https://discord.gg/ynMkTWgxuf). Here, you can chat with other members of the community, ask questions, and get help from our team.
 

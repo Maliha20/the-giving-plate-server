@@ -23,7 +23,7 @@ app.use(
 
 /* TEST API */
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to Serving Smiles server!" });
+  res.status(200).json({ message: "Welcome to The Giving Plate server!" });
 });
 
 /* BYPASSED APIs */
