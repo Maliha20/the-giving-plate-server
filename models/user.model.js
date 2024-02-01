@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const validator = require("validator");
 const bcrypt = require("bcrypt");
 
+
 const userSchema = new mongoose.Schema(
   {
     name: {
@@ -14,7 +15,7 @@ const userSchema = new mongoose.Schema(
       unique: true,
     },
     image: {
-      type: String,
+      type: Buffer,
       required: true,
     },
     password: {
@@ -71,7 +72,7 @@ userSchema.statics.signup = async function (
   name,
   email,
   password,
-  image,
+  imageBuffer,
   address,
   occupation,
   phoneNumber
@@ -81,7 +82,7 @@ userSchema.statics.signup = async function (
     !email ||
     !password ||
     !name ||
-    !image ||
+    !imageBuffer ||
     !address ||
     !occupation ||
     !phoneNumber
@@ -117,7 +118,7 @@ userSchema.statics.signup = async function (
     name,
     email,
     password: hash,
-    image,
+    image: imageBuffer,
     address,
     occupation,
     phoneNumber,
