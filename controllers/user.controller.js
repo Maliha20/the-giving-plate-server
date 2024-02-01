@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { createToken } = require("../helpers/token.helper");
 const User = require("../models/user.model");
 const Checkpost = require("../models/checkpost.model");
-const fileType = require("file-type");
+
 
 const loginUser = async (req, res) => {
   try {
@@ -29,11 +29,7 @@ const registerUser = async (req, res) => {
     }
 
     const imageFile = req.files.image; // Access the uploaded file
-    // Validate file type
-    const fileTypeResult = await fileType.fromBuffer(imageFile.data);
-    if (!fileTypeResult || !fileTypeResult.mime.startsWith("image")) {
-      throw new Error("Invalid file type. Please upload an image.");
-    }
+   
     // Use the file data directly as a Buffer
     const imageBuffer = imageFile.data;
 
