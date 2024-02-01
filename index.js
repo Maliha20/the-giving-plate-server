@@ -1,9 +1,10 @@
 require("dotenv").config();
 
 const express = require("express");
+const multer = require('multer');
 const cors = require("cors");
 const mongoose = require("mongoose");
-const multer = require('multer');
+
 
 const userRoutes = require("./routes/user.route");
 const reviewRoutes = require("./routes/review.route");
@@ -13,7 +14,6 @@ const checkpostRoutes = require("./routes/checkpost.route");
 
 /* EXPRESS APP */
 const app = express();
-const storage = multer.memoryStorage(); // Store files in memory as buffers
 
 
 /* MIDDLEWARES */
