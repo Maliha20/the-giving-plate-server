@@ -12,6 +12,8 @@ const checkpostRoutes = require("./routes/checkpost.route");
 
 /* EXPRESS APP */
 const app = express();
+const storage = multer.memoryStorage(); // Store files in memory as buffers
+
 
 /* MIDDLEWARES */
 app.use(express.json());

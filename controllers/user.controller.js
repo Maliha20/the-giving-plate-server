@@ -20,18 +20,10 @@ const loginUser = async (req, res) => {
 
 const registerUser = async (req, res) => {
   try {
-    const { name, email, password, address, occupation, phoneNumber } =
-      req.body;
+    const { name, email, password, address, occupation, phoneNumber } = req.body;
 
-    // Check if file is present in the request
-    if (!req.files || Object.keys(req.files).length === 0) {
-      throw new Error("No file uploaded");
-    }
-
-    const imageFile = req.files.image; // Access the uploaded file
-   
-    // Use the file data directly as a Buffer
-    const imageBuffer = imageFile.data;
+    // Access the uploaded file from req.file
+    const imageBuffer = req.file.buffer;
 
     // Save the user with the imageBuffer
     const user = await User.signup(
@@ -51,6 +43,7 @@ const registerUser = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
+
 
 const getAllUsers = async (req, res) => {
   try {
