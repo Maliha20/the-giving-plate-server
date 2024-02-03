@@ -3,7 +3,6 @@ const { createToken } = require("../helpers/token.helper");
 const User = require("../models/user.model");
 const Checkpost = require("../models/checkpost.model");
 
-
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -20,17 +19,13 @@ const loginUser = async (req, res) => {
 
 const registerUser = async (req, res) => {
   try {
-    const { name, email, password, address, occupation, phoneNumber } = req.body;
-
-    // Access the uploaded file from req.file
-    const imageBuffer = req.file.buffer;
-
-    // Save the user with the imageBuffer
+    const { name, email, password, image, address, occupation, phoneNumber } =
+      req.body;
     const user = await User.signup(
       name,
       email,
       password,
-      imageBuffer,
+      image,
       address,
       occupation,
       phoneNumber
@@ -43,7 +38,6 @@ const registerUser = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
-
 
 const getAllUsers = async (req, res) => {
   try {

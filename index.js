@@ -1,10 +1,8 @@
 require("dotenv").config();
 
 const express = require("express");
-const multer = require('multer');
 const cors = require("cors");
 const mongoose = require("mongoose");
-
 
 const userRoutes = require("./routes/user.route");
 const reviewRoutes = require("./routes/review.route");
@@ -14,7 +12,6 @@ const checkpostRoutes = require("./routes/checkpost.route");
 
 /* EXPRESS APP */
 const app = express();
-
 
 /* MIDDLEWARES */
 app.use(express.json());
@@ -26,7 +23,7 @@ app.use(
 
 /* TEST API */
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to The Giving Plate server!" });
+  res.status(200).json({ message: "Welcome to Elysian Feeds server!" });
 });
 
 /* BYPASSED APIs */
