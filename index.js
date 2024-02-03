@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const express = require("express");
-const multer = require("multer");
+
 const cors = require("cors");
 const mongoose = require("mongoose");
 
@@ -13,17 +13,6 @@ const checkpostRoutes = require("./routes/checkpost.route");
 
 /* EXPRESS APP */
 const app = express();
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'uploads/'); 
-  },
-  filename: (req, file, cb) => {
-    cb(null, Date.now() + '-' + file.originalname); 
-  },
-});
-
-const upload = multer({ storage: storage, limits: { fileSize: 1024 * 1024 * 5 } }); 
-app.use(upload.any());
 
 /* MIDDLEWARES */
 app.use(express.json());
